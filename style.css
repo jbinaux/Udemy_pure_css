@@ -1,0 +1,23 @@
+.button-container
+{
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.sign-in
+{
+   align-self: flex-end;
+}
+
+.sign-up
+{
+   align-self: flex-start;
+}
+
+.shopping
+{
+  align-self: center;
+  border-radius: 50%;
+  background-color: white;
+}

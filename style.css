@@ -69,3 +69,27 @@
 {
   color: white;
 }
+
+.gradient
+{
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  color: white;
+  background: linear-gradient(-45deg,#ec5252,#6e1a52);
+  background: -moz-linear-gradient(-45deg,#ec5252,#6e1a52);
+  background: -webkit-linear-gradient(-45deg,#ec5252,#6e1a52);
+}
+
+.content
+{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.medium
+{
+  font-size: 3em;
+}
